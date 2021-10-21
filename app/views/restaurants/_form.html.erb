@@ -1,0 +1,9 @@
+<%= simple_form_for(restaurant) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :phone_number %>
+  <%= f.input :category %>
+  <div class="row justify-content-center">
+  <%= f.submit class: 'btn btn-primary' %>
+  </div>
+<% end %>
